@@ -1,0 +1,8 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`: En el lenguaje de programación JavaScript el for hace parte de los bucles ó
+        también se pueden llamar ciclos. El for es un ciclo que se repite muchas veces, pero deja de repetirse cuando su condición sea falsa. Porque el ciclo for está compuesto por tres partes; la primera es un inicializador que indica en qué valor inicia el ciclo, sigue la condición que se debe cumplir hasta que queramos que el for termine y por último un incremento o decremento del valor inicial para permitirnos correr a través de cada ciclo.
+
+
+* `&&`, `||`, `!`: Los tres son operadores lógicos, lo que quiere decir que sirven
+            para comparar dos números y evaluar si es una comparación verdadera o falsa. El '&&' se le como "y" ("AND") y obliga a que ambos valores comparados sean verdaderos para ejecutar el código. El '||' se lee como "ó" ("OR") y permite que con que solo uno de los dos valores comparados sea verdadero, ya se pueda ejecutar el código. Por último el '!' se lee como "no" ("NOT"), y se utiliza principalmente cuando queremos obtener verdadero (true) si en la comparación ambos valores son diferentes. El '!' también es útil para cambiar un valor a su booleano opuesto.
