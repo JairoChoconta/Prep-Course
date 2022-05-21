@@ -1,0 +1,23 @@
+SOLUCIÓN - Homework 02-JS-I
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo 
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu 
+comprensión.
+
+ * Variables: Son un espacio creado en la memoria RAM del computador en el que se guarda un valor. 
+	 	A este espacio se le asigna un nombre para utilizar su valor cuando lo necesitemos.
+ * Strings: Son un tipo de variable que guarda varios caracteres seguidos, por lo que conforman una cadena de caracteres.
+ * Funciones (argumentos, `return`): Una función es un trozo o pedazo de código que realiza una acción.
+
+					Existen las function statements que realizan alguna acción y las function
+					expressions o funciones anónimas que son las que se guardan dentro de una
+					variable. Cuando vamos a usar funciones, se deben llamar escribiendo su nombre,
+					seguido de un paréntesis. Dentro del paréntesis se ingresan argumentos que van
+					a pasarse como parámetros dentro de la función. Esto desencadena la acción de 
+					dicha función. La declaración 'return' es la única forma de devolver un valor
+					que se encuentra dentro de una función.
+ * Declaraciones `if`: 		Una declaración 'if', es una declaración condicional. Que permite ejecutar líneas de 
+				código si la condición dentro del paréntesis es verdadera, o de lo contrario, que se
+				omitan dichas líneas.
+ * Valores booleanos (`true`, `false`): Un valor booleano es un tipo de dato que sólo puede tomar dos valores, o
+					verdadero (que equivaldría a uno o a activado), o falso (sería 0, inactivo).
