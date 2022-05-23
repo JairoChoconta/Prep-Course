@@ -3,6 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  //Hola, prueba GIt psh origin main en la consola de Ubuntu 20.0 WSL2
 }
 
 
