@@ -230,6 +230,11 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+
+  //Otra forma de resolver este ejercicio (según como yo lo había interpretado
+  //  en un principio) donde pensaba que se debía salir del arreglo antes de 
+  //llegar al número + 5 * 8 :
+  /* 
   var aumento = numero;
   var limite = numero * 8;
   do {
@@ -238,7 +243,12 @@ function doWhile(numero) {
     }
     aumento += 5;
     
-  } while ( aumento < limite );
+  } while ( aumento < limite ); */
+  var aumento = numero;
+  do {
+    aumento += 5;
+  } while ( aumento < (numero + 5*8) );
+  return aumento;
 }
 
 
