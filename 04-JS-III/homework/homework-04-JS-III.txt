@@ -1,0 +1,5 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays: Un arreglo, array o matriz es una colección de elementos que se ordenan de acuerdo a su posición. Le debo dar un nombre a mi colección y (Como en toda colección), puedo guardar cualquier tipo de elemento y dejarlo guardado el tiempo que yo quiera hasta que necesite usar uno de esos elementos. Para usarlo solamente recuerdo en qué posición dejé el elemento que necesito, ejemplo: En mi colección objetosViejos, guardé lo siguiente: En la Posición 0: dejé el collar del perro, En la Posición 1: aquí guardé mi baraja de colección de tarjetas de Spiderman, Posición 2: En esta posición está mi tarjeta de identidad de la primaria. 
+
+    Si necesito mis tajetas de Spiderman escribo el nombre de mi colección objetosViejos y elijo la posición 1.

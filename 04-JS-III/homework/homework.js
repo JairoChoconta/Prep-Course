@@ -48,6 +48,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   array.unshift(elemento);
+  return array;
 }
 
 
@@ -119,8 +120,8 @@ function numeroMasGrande(numeros) {
   // Tu código:
   var numeroAnterior = numeros[0];
   var mayor = numeroAnterior;
-  for ( let i = 1; i < numeros.length; i++) {
-    if ( numeros[i] > numeroAnterior ) {
+  for ( let i = 1; i < numeros.length; i++ ) {
+    if ( numeros[i] > mayor ) {
       mayor = numeros[i];
     }
     numeroAnterior = numeros[i];
@@ -168,7 +169,7 @@ function diaDeLaSemana(numeroDeDia) {
   if ( numeroDeDia === 1 || numeroDeDia === 7 ) {
     return 'Es fin de semana';
   } else {
-    return 'Es dia laboral';
+    return 'Es dia Laboral';
   }
 } 
 
@@ -206,6 +207,34 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  var nuevoArray = [];
+  var posicionArray = 0, contEnero = 0, contMarzo = 0, contNoviembre = 0;
+
+  for ( let i = 0; i < array.length; i++ ) {
+    switch ( array[i] ) {
+      case 'Enero':
+        nuevoArray[posicionArray] = array[i];
+        contEnero++;
+        posicionArray++;
+      break;
+      case 'Marzo':
+        nuevoArray[posicionArray] = array[i];
+        contMarzo++;
+        posicionArray++;
+      break;
+      case 'Noviembre':
+        nuevoArray[posicionArray] = array[i];
+        contNoviembre++;
+        posicionArray++;
+      break;
+      default: 
+      break;
+    }
+  }
+  if ( contEnero === 0 || contMarzo === 0 || contNoviembre === 0 ) {
+    return 'No se encontraron los meses pedidos';
+  }
+  return nuevoArray;
 }
 
 
@@ -213,6 +242,15 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  var nuevoArray = [];
+  var posicionArray = 0;
+  for ( let i = 0; i < array.length; i++ ) {
+    if ( array[i] > 100 ) {
+      nuevoArray[posicionArray] = array[i];
+      posicionArray++;
+    }
+  }
+  return nuevoArray;
 }
 
 
@@ -224,6 +262,19 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var array = [];
+  array[0] = numero + 2;
+  for ( let i = 1; i < 10; i++ ) {
+      array[i] = array[i - 1] + 2;
+       if ( array[i] === i ) {
+          break;
+        }
+  }
+  if ( array.length === 10 ) {
+    return array;
+  } else {
+    return 'Se interrumpió la ejecución';
+  }
 }
 
 
@@ -234,6 +285,17 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var array = [];
+  var i = 0;
+  array[0] = numero + 2;
+  do {
+    if ( i === 5) {
+      continue;
+    }
+    array.push(array[i] + 2); 
+    i++;
+  } while ( i < 9 );
+  return array;
 }
 
 

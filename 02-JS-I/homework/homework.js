@@ -172,9 +172,9 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if ( numero > 0 ) {
     return 'Es positivo';
-  }else if ( numero < 0 ) {
+  } else if ( numero < 0 ) {
     return 'Es negativo';
-  }else {
+  } else {
     return false;
   }
 }
