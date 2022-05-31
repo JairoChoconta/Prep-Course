@@ -290,6 +290,9 @@ function continueStatement(numero) {
   array[0] = numero + 2;
   do {
     if ( i === 5) {
+      var arrayAux = [];
+      arrayAux[i] = 
+      i++;
       continue;
     }
     array.push(array[i] + 2); 
