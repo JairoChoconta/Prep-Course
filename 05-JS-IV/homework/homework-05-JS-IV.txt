@@ -1,0 +1,20 @@
+# Homework: Javascript IV
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos: Habíamos dicho que los arrays (arreglos o matrices) eran colecciones de elementos de cualquier tipo. Los objetos son colecciones de propiedades para describir mejor cada uno de esos elementos de un array.
+    El concepto es muy parecido, solo difiere en que las propiedades de los arrays son las posiciones o índices, mientras que las propiedades pueden ser cualquier nombre que lo describa. Por ejemplo las propiedades pueden ser: nombre, apellido, dirección, teléfono, edad, sexo, contraseña, marca...
+
+
+	* Propiedades: Las propiedades se encuentran dentro de los objetos y son un nombre (conocido como clave, key) y un valor para el nombre (value). Al igual que con los elementos de los Arrays, los valores de las propiedades pueden ser de cualquier tipo de dato. Ambas cosas nombre: valor, conforman una propiedad y están asociados, tienen relación.
+
+
+	* Métodos: Cuando una de estas propiedades tiene cualquier nombre (key) que por valor contenga una función, a esta no se le llamará función propiamente sino MÉTODO. Luego viene el concepto this, que sirve para cambiar una propiedad dentro del objeto sin tener que hacerlo manualmente sino de forma automática desde fuera del objeto. 
+
+
+	* Bucle `for…in`: Es un ciclo o bucle repetitivo que se usa en los objetos. A diferencia del for tradicional para los arrays, el Bucle `for...in` recorre una sola vez cada propiedad dentro del objeto y finaliza cuando llega a la última.
+
+
+	* Notación de puntos vs notación de corchetes: Ambas notaciones sirven tanto para acceder a los valores de las propiedades como para asignarlas, pero se diferencian en que la Bracket Notation permite acceder o asignar un valor a través de un índice dentro de los brackets como se hace en los Arrays siempre que la propiedad señalada esté dentro de paréntesis, o de lo contrario, para usar una variable se debe haber guardado dentro de ella como un string el nombre de la propiedad. Para hacer el proceso anterior más rápido se emplea la Dot Notation, simplemente se pone un punto luego del objeto a acceder y se escribe el nombre de la propiedad nueva o ya existente. La diferencia es que la Dot Notation es más estricta y esta va literalmente hacia la propiedad, no permite pasar variables que contengan el string de la propiedad. 

@@ -1,0 +1,10 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`: El 'prototype' sirve para crear métodos de las clases. Y a su vez, crear métodos para las clases nos sirve para poder usarlos en cualquier objeto sin estar creando un nuevo método para cada objeto nuevo.
+
+
+* _Constructors_ (de Clases): Los constructors son funciones que son la plantilla o fábrica para poder construir nuestros objetos.
